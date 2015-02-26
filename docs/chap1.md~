@@ -1,0 +1,35 @@
+=Values and Types
+
+A role of a JS value can be determinded by its type. There are six
+basic types:
+
+* Numbers (represented with 64 bits)
+* Strings
+* Booleans
+* Objects
+* Functions
+* Undefined
+
+== Numbers
+
+Numbers a reperesented with 64 bits.
+You can use operators (+, -, *, /, %) on numbers.
+There are three special numbers: Infinity, -Infinity and Nan (Not a
+Number)
+
+== Strings
+
+The type Strings is used to represent text and use double or simple
+quotes: "Ceci est une valeur de type String", 'Celle-ci aussi'.
+You can use specials characters inside a String but you need to escape
+them wiht a backslash (\):
+
+* newline character with \n "First line\nSecond line"
+* tab character with \t "A line follow by a \tTab line"
+
+You don't need to add a space after the special character!
+If you want to use the string "\n" but not the newline you need to
+escape the characters:
+
+* "I want \\n"
+* "I want a quote \""
