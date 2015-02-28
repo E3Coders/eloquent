@@ -39,7 +39,7 @@ want to return.
 
     square(42);
 
-//function with only a side effect
+    //function with only a side effect
 
     var coucou = function(name){
         console.log("coucou " + name);
@@ -166,7 +166,7 @@ You can create some interesting calls:
 
 ##Recursion
 
-A recusion is a function which call itsel.
+A recusion is a function which call itself.
 
     function rec(a){
         if(a==0)
@@ -184,6 +184,7 @@ Recursions are nice but are slower than a loop. But don't worry about the speed 
 The main goal of a function is to encapsulate some code which will be used multiple times.
 When creating functions try to limit the resposability of the functions and try to simplify the functions.
 If a function is too complicated try to descontruct it with others functions and then compose these functions to get the right behavior.
+
 KISS (Keep It Simple Stupid): https://en.wikipedia.org/wiki/KISS_principle
 
 ##Function and side effect
