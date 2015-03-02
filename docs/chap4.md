@@ -9,7 +9,7 @@ array with its index and the syntax array[index]
     console.log(myArray);
     console.log(myArray[3]);//return 4
 
-If you try to access an index not defined is an array, the value
+If you try to access an index not defined in an array, the value
 returned is undefined
 
     console.log(myArray[43]);//return undefined
@@ -20,7 +20,7 @@ A property is an expression which can access a property of a value.
 
     console.log("hello".length);//length property
 
-Most values have properties excepted null and undifined. If you try to
+Most values have properties excepted null and undefined. If you try to
 access a property from these values you will get an error.
 
 You can access a property with the . or [] syntax:
@@ -96,7 +96,7 @@ in. The name of the property you want to check must be a string.
     console.log("prop1" in obj);//return true
     console.log("fasdfs" in obj);//return false
 
-You can create array of object:
+You can create an array of object:
 
     var myArray = [
         {prop1: 1, prop2: 2},
@@ -124,8 +124,9 @@ for the two objects: If you modify one object the other is also modified
     console.log(obj2.prop);//return 42
 	console.log(obj2 == obj1);//return true
 
-The == operator check if both object have the same reference. !! It
-doesn't check if the property of the objects are the same !!
+The == operator check if both object have the same reference.
+
+!! It doesn't check if the property of the objects are the same !!
 
     var obj1 = {prop: 1}
 	var obj2 = {prop: 1}
@@ -146,7 +147,7 @@ correlation.
 
 N00 false, false | N01 true, false
 
-N10 false, true  | N11 true, true
+N10 false , true  | N11 true, true
 
 If you use the number of occurence for each condition yo have:
 
