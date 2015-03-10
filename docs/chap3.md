@@ -4,8 +4,8 @@ A function allow to wrap some code into a value.
 
 Main avantages of using functions:
 
-* Structure program
-* Reduce repetition
+* Structure the program
+* Reduce duplicate code
 * Associate names with subprogram
 * Isolate subprograms from each other
 
@@ -18,7 +18,7 @@ A function definition is like a variable definition.
     };
     console.log(myVariable(param);
 
-A function is an expression beginning with the keyword function and it
+A function is an expression beginning with the keyword "function" and it
 must have {} to delimite the statements of the function, even when
 there is only one statement.
 
@@ -27,8 +27,8 @@ with coma:
 
     var myFunction = function(parm1, param2, param3){...};
 
-A function can return a value or simply just have a side effect.
-To return a value use the keyword return followed by the value you
+A function can return a value or simply just have a [side effect](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29).
+To return a value use the keyword "return" followed by the value you
 want to return.
 
     //function with a value
@@ -86,10 +86,10 @@ can messed up your code. If you use a same global variable inside a lot of funct
 	
 ##Nested Scope
 
-You can define function inside function and create a nested local scope.
+You can define functions inside functions and create a nested local scope.
 
     var myGlobalVar = "hello";
-    var myFunction(){
+    var myFunction = function(){
         console.log(myGlobalVar);
         var x = 33;//local to myFuntion and accessible from subfunction
 

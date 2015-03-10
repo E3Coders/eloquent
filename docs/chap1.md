@@ -91,7 +91,8 @@ NaN, 0 and the empty string "" are converted to false.
 
 * 0 == false, return true.
 
-You can use === and !== when you don't want the value converted but do a comparaison with the given type.
+You can use === and !== when you don't want the value to be converted.
+It compare with the real type given.
 
 * "" === false, return false
 

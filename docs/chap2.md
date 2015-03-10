@@ -4,46 +4,48 @@
 
 For me:
 
-* An expression is like a mathematical function. It take a value and return another value.
-* A statement is a set of expressions with side effects (for exemple print
+* An expression is like a mathematical function. It takes a value and returns another value.
+* A statement is a set of expressions with [side effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29) (for exemple print
   something on the screen). Most of the time statement terminate with
   a ;
 
 ##Variables
 
-We can define a variable with the keyword var.
+We can define a variable with the keyword "var".
 
 the following statement define a variable myVar with the value 42:
 
-* var myVar = 42;
+    var myVar = 42;
 
 We can redefine the value of a variable with the operator = (we don't
 use the keyword var):
 
-* myVar = 32;
+    myVar = 32;
 
 You can redefine the value of the variable by using the variable
 itself:
 
-* var myVar = 55;
-* myVar = myVar + 5;
+    var myVar = 55;
+    myVar = myVar + 5;
 
 There are some special shortcut operator for these kind of assigment:
 
-* myVar += 5; instead of myVar = myVar + 5
-* same with myVar -= 5;
+    myVar += 5; instead of myVar = myVar + 5
+    same with myVar -= 5;
 
 If you try to access an empty variable the undifined value is
 returned.
 
 You can defined nultiple variable on one line:
 
-* var myVar1 = 1, myVar2 = 2;
+    var myVar1 = 1, myVar2 = 2;
 
 ##Keywords
 
-Keywords are reserved words in JS. You can't use it to create a
-variable for example.
+Keywords are reserved words in JS. You can't use them to create a
+variable name for example.
+
+    var class = 2;//it's not allowed
 
 List of keywords:
 
@@ -83,7 +85,7 @@ If you need to have multiple statements in a if you need to use
 
     if(condition){
       statment1;
-      statment2
+      statment2;
     }
 
 Some usefull function:
@@ -110,7 +112,7 @@ You can combine if and if else.
       statments;
     }while(condition)
 
-With the Do loop we are assured that we are looping at least one time.
+The "Do loop" loop at least one time!
 
 ###For loop
 
@@ -118,7 +120,7 @@ With the Do loop we are assured that we are looping at least one time.
       statements;
     }
 
-the number++ is equal to number = number + 1
+the "number++" is equal to number = number + 1
 
 ###Break
 
