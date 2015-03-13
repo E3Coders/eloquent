@@ -107,7 +107,7 @@ You can create an array of object:
 You can loop on an object:
 
     var obj = {...}
-    loop(var prop in obj)
+    for(var prop in obj)
         console.log("the property " + prop + "as a value of" + obj[prop]"); 
 
 ##Mutability
