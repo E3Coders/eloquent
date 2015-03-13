@@ -1,2 +1,2 @@
-This repository contain notes on the eloquent's chapter and solutions
+This repository contains notes on the eloquent's chapters and solutions
 of exercises.
