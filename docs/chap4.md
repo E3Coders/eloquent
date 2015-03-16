@@ -64,7 +64,7 @@ Some common methods for String:
 ##Objects
 
 An object is a set of properties. We can add and remove these
-properties. We use {} to define an object
+properties. We use {} to define an object. It's also called an object literal.
 
     var week = {
         days: ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"],
