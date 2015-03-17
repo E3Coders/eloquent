@@ -22,19 +22,23 @@ function every2(array, f){
     return true;
 }
 
+//doesn't work!!! 
+//the return false doesn't stop the main function but the subfunction
+//inside the forEach. So you can't break the forEach with a return or
+//a break
 function every3(array,f){
-    array.forEach(function(elem){
+    array.forEach(function(elem){a
 	if(!f(elem)){
 	    return false;
 	}
-	break;//can't break the forEach the return is encapsluate to a subfunction
+	//break;//can't break the forEach the return is encapsluate to a subfunction
     });
     return true;
 }
 
-    console.log(every3([1,NaN, NaN, NaN], isNaN));
+console.log(every([1,NaN, NaN, NaN], isNaN));
 // → true
-console.log(every3([NaN, NaN, NaN], isNaN));
+console.log(every([NaN, NaN, NaN], isNaN));
 // → false
 //console.log(some([NaN, 3, 4], isNaN));
 // → true
